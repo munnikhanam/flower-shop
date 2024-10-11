@@ -10,6 +10,7 @@
   border-radius: 8px;
   background: rgb(229, 84, 115);
   border: none;
+  color: #fff;
 }
 h3 {
   color: rgb(39, 39, 39);
@@ -180,7 +181,7 @@ header p .btn {
   font-size: 14px;
   font-weight: 400;
   text-align: left;
-  box-shadow: 1px 10px 13px 0px rgba(0, 0, 0, 0.32);
+  margin-right: 10px;
   -webkit-box-shadow: 1px 10px 13px 0px rgba(0, 0, 0, 0.32);
   -moz-box-shadow: 1px 10px 13px 0px rgba(0, 0, 0, 0.32);
 }
