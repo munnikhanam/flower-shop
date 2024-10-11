@@ -1,0 +1,217 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+
+/* font-family: "Lato", sans-serif; */
+* {
+  padding: 0;
+  margin: 0;
+}
+.btn {
+  padding: 20px 43px 20px 43px;
+  border-radius: 8px;
+  background: rgb(229, 84, 115);
+  border: none;
+}
+h3 {
+  color: rgb(39, 39, 39);
+  font-family: Lato;
+  font-size: 50px;
+  font-weight: 800;
+  line-height: 56px;
+  letter-spacing: 0%;
+}
+p {
+  color: rgba(39, 39, 39, 0.6);
+  font-family: Lato;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0%;
+  margin: 40px 0;
+}
+h4 {
+  color: rgb(39, 39, 39);
+  font-family: Lato;
+  font-size: 25px;
+  font-weight: 800;
+  line-height: 28px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+.tittle {
+  width: 594px;
+  height: 132px;
+  margin: 0 auto;
+  text-align: center;
+}
+.container {
+  width: 1440px;
+}
+.bg-primary {
+  background: rgba(229, 84, 115, 0.05);
+}
+.banner-part-container {
+  padding: 50px 0;
+}
+.banner-part-content {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.banner-text-content {
+  width: 35%;
+  margin-right: 30px;
+}
+
+.banner-part-imge {
+  width: 50%;
+}
+.banner-part-imge .banner-img {
+  width: 635px;
+  height: 800px;
+  margin: 0 auto;
+}
+.banner-part-imge .banner-img img {
+  width: 100%;
+  height: 100%;
+}
+header p .btn {
+  margin-top: 20px;
+}
+/* Featured-part start */
+.featured-part-container {
+  width: 90%;
+  background: #ffff;
+  margin: 30px auto;
+  border-radius: 16px;
+  padding: 20px 0;
+}
+.featured-part-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+/*  */
+.featured-part-gallery {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  margin-top: 10px;
+}
+.featured-part-gallery .img-1,
+.img-2,
+.img-3 {
+  background: rgba(229, 84, 115, 0.1);
+  border-radius: 50% 50% 0 0;
+  padding: 20px;
+  text-align: center;
+  width: 29%;
+}
+.img-background {
+  text-align: center;
+}
+.img-background .img-1 {
+  width: 370px;
+  height: 370px;
+  border: 1px solidred;
+}
+.img-background .img-1 img {
+  width: 100%;
+  height: 100%;
+}
+
+.hot-deal-container {
+  width: 90%;
+  margin: 20px auto;
+}
+.hot-deal-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.hot-deal-text-content {
+  width: 50%;
+  margin-right: 50px;
+}
+
+.hot-deal-image {
+  width: 50%;
+}
+/* instagram-part-started */
+.instagram-gallery {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.instagram-gallery .imge {
+  border: 1px solid rgb(247, 250, 250);
+  width: 342px;
+  height: 396px;
+}
+.instagram-gallery .imge img {
+  width: 100%;
+  height: 100%;
+}
+.super-deal-part-container {
+  width: 90%;
+  margin: 50px auto;
+  border-radius: 16px;
+  padding: 20px 0;
+  background: url(/bg-img/Rectangle\ 9.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 50px;
+  text-align: center;
+}
+.super-deal-part-container input {
+  width: 400px;
+  height: 34px;
+  border: none;
+  color: #ffff;
+  border-radius: 6px;
+  background: rgb(255, 255, 255);
+  box-shadow: 1px 10px 13px 0px rgba(0, 0, 0, 0.32);
+  -webkit-box-shadow: 1px 10px 13px 0px rgba(0, 0, 0, 0.32);
+  -moz-box-shadow: 1px 10px 13px 0px rgba(0, 0, 0, 0.32);
+}
+.super-deal-part-container .subscribe {
+  width: 100px;
+  height: 34px;
+  background: rgb(229, 84, 115);
+  border-radius: 6px;
+  border: none;
+}
+/* footer-part */
+footer {
+  text-align: center;
+  padding: 50px 0;
+  margin: 20px 0;
+  background: rgb(30, 30, 30);
+}
+footer h5 {
+  font-family: Lato;
+  font-size: 48px;
+  font-weight: 800;
+  line-height: 58px;
+  color: #fff;
+}
+footer h5 span {
+  color: #e55473;
+}
+footer p {
+  color: rgba(86, 85, 85, 0.9);
+}
+footer .rights-text {
+  color: rgba(86, 85, 85, 0.9);
+  font-family: Lato;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 19px;
+  text-align: center;
+}
+footer .last-div {
+  margin-top: 20px;
+}
