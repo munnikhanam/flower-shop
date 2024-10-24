@@ -227,6 +227,7 @@ footer .rights-text {
 @media screen and (max-width: 576px) {
   .banner-part-content {
     flex-direction: column;
+    padding-top: 30px;
   }
   .banner-text-content {
     margin-bottom: 30px;
